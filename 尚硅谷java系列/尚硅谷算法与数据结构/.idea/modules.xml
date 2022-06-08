@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/力扣/力扣.iml" filepath="$PROJECT_DIR$/力扣/力扣.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/尚硅谷算法与数据结构.iml" filepath="$PROJECT_DIR$/.idea/尚硅谷算法与数据结构.iml" />
+      <module fileurl="file://$PROJECT_DIR$/稀疏数组与队列/稀疏数组与队列.iml" filepath="$PROJECT_DIR$/稀疏数组与队列/稀疏数组与队列.iml" />
+    </modules>
+  </component>
+</project>

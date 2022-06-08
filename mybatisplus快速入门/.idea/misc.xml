@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://E:/Java EE learn/gittest/springboot-mvc零配置与部署" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/swagger-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../小毛病fuck/mybatis快速入门/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis快速入门/pom.xml" />
+        <option value="$PROJECT_DIR$/../ssm/Java EE企业级应用开发（SSM）-源代码/ch15-2/pom.xml" />
+        <option value="$PROJECT_DIR$/helloSecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatis逆向工程2/pom.xml" />
+        <option value="$PROJECT_DIR$/ems/pom.xml" />
+        <option value="$PROJECT_DIR$/verify验证码示例/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

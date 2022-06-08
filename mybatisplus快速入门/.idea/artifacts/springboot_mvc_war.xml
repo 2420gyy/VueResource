@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-mvc零配置与部署:war">
+    <output-path>E:/Java EE learn/gittest/springboot-mvc零配置与部署/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-mvc零配置与部署</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-mvc零配置与部署.war">
+      <element id="artifact" artifact-name="springboot-mvc零配置与部署:war exploded" />
+    </root>
+  </artifact>
+</component>

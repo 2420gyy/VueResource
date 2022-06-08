@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baizhi.ems.dao.UserDao">
+    <!--保存用户 已经起过别名了-->
+    <insert id="save" parameterType="User">
+        insert into t_user values (#{id},#{username},#{realname},#{password},#{sex})
+    </insert>
+<!--    登录-->
+    <select id="findByUsernameAndPassword" resultType="User">
+        select id,username,realname,password,sex from t_user where username=#{username} and password=#{password};
+    </select>
+
+
+
+<!--    -->
+<!--    <update id="toUpdate">-->
+<!--        update ems.t_user set username=#{username},realname=#{realname},password=#{password},sex=#{sex} where id=#{id};-->
+<!--    </update>-->
+<!--    <delete id="toDeleteById" parameterType="int">-->
+<!--        delete from ems.t_user where id=#{id};-->
+<!--    </delete>-->
+<!--    <insert id="toAddUser" >-->
+<!--        insert into ems.t_user (username, realname, password, sex) values (#{username},#{realname},#{password},#{sex});-->
+<!--    </insert>-->
+</mapper>

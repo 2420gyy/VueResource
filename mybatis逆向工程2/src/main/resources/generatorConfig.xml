@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <context id="testTables" targetRuntime="MyBatis3">
+        <!-- 1、jdbcConnection 配置数据库连接信息。-->
+        <jdbcConnection
+                driverClass="com.mysql.jdbc.Driver"
+                connectionURL="jdbc:mysql://localhost:3306/sell?serverTimezone=GMT%2B8&amp;use?useSSL=false&amp;useUnicode=true&amp;characterEncoding=utf8"
+                userId="root"
+                password="root"
+        ></jdbcConnection>
+        <!--2、javaModelGenerator 配置 JavaBean(实体类) 的⽣成策略。targetPackage:实体类所在的包 targetProject:创建包的位置-->
+        <javaModelGenerator targetPackage="com.yue.pojo"
+                            targetProject="./src/main/java"></javaModelGenerator>
+        <!--3、sqlMapGenerator 配置 SQL 映射⽂件⽣成策略。-->
+        <sqlMapGenerator targetPackage="com.yue.dao"
+                         targetProject="./src/main/java"></sqlMapGenerator>
+        <!--4、javaClientGenerator 配置 Mapper 接⼝的⽣成策略。-->
+        <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="com.yue.dao" targetProject="./src/main/java">
+        </javaClientGenerator>
+        <!--5、table 配置⽬标数据表（tableName：表名，domainObjectName：JavaBean 类名）。-->
+        <table tableName="user" domainObjectName="items"></table>
+    </context>
+
+</generatorConfiguration>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+验证码:
+<img id="num" src="verifyCode" alt="验证码" onClick="this.src=this.src+'?'+Math.random();" >
+<!--<img src="${pageContext.request.contextPath}/verifyCode" alt="验证码" onClick="this.src=this.src+'?'+Math.random();">-->
+</body>
+</html>

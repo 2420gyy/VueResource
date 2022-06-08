@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ems/ems.iml" filepath="$PROJECT_DIR$/ems/ems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloSecurity/helloSecurity.iml" filepath="$PROJECT_DIR$/helloSecurity/helloSecurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatisplus-demo/mybatisplus-demo.iml" filepath="$PROJECT_DIR$/mybatisplus-demo/mybatisplus-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis快速入门/mybatis快速入门.iml" filepath="$PROJECT_DIR$/mybatis快速入门/mybatis快速入门.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis逆向工程/mybatis逆向工程.iml" filepath="$PROJECT_DIR$/mybatis逆向工程/mybatis逆向工程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mybatis逆向工程2/mybatis逆向工程2.iml" filepath="$PROJECT_DIR$/../mybatis逆向工程2/mybatis逆向工程2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ssm/Java EE企业级应用开发（SSM）-源代码/springboot整合FM与PH/springboot整合FM与PH.iml" filepath="$PROJECT_DIR$/../ssm/Java EE企业级应用开发（SSM）-源代码/springboot整合FM与PH/springboot整合FM与PH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swagger-demo/swagger-demo.iml" filepath="$PROJECT_DIR$/swagger-demo/swagger-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/verify验证码示例/verify验证码示例.iml" filepath="$PROJECT_DIR$/verify验证码示例/verify验证码示例.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mybatis逆向工程2" />
+        <module name="springboot整合FM与PH" />
+        <module name="helloSecurity" />
+        <module name="verify验证码示例" />
+        <module name="mybatisplus-demo" />
+        <module name="springboot-mvc零配置与部署" />
+        <module name="mybatis快速入门" />
+        <module name="swagger-demo (1)" />
+        <module name="ems" />
+        <module name="mybatisplus快速入门" />
+        <module name="swagger-demo" />
+        <module name="springboot01" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ems" target="11" />
+      <module name="helloSecurity" target="11" />
+      <module name="mybatisplus-demo" target="11" />
+      <module name="mybatis快速入门" target="1.8" />
+      <module name="mybatis逆向工程2" target="1.5" />
+      <module name="springboot整合FM与PH" target="1.8" />
+      <module name="swagger-demo" target="11" />
+      <module name="verify验证码示例" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ems" options="-parameters" />
+      <module name="helloSecurity" options="-parameters" />
+      <module name="mybatisplus-demo" options="-parameters" />
+      <module name="springboot整合FM与PH" options="-parameters" />
+      <module name="swagger-demo" options="-parameters" />
+      <module name="verify验证码示例" options="-parameters" />
+    </option>
+  </component>
+</project>

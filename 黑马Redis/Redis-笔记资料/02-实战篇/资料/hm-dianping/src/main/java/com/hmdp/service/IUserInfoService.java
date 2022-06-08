@@ -1,0 +1,26 @@
+package com.hmdp.service;
+
+import com.hmdp.dto.LoginFormDTO;
+import com.hmdp.dto.Result;
+import com.hmdp.entity.UserInfo;
+import com.baomidou.mybatisplus.extension.service.IService;
+
+import javax.servlet.http.HttpSession;
+
+/**
+ * <p>
+ *  服务类
+ * </p>
+ *
+ * @author 虎哥
+ * @since 2021-12-24
+ */
+public interface IUserInfoService extends IService<UserInfo> {
+
+    /**
+     * @Author chenchen
+     * @Description  验证手机验证码
+     * @Date 13:43 2022/4/26
+     **/
+    Result sendCode(String phone, HttpSession session);
+}
