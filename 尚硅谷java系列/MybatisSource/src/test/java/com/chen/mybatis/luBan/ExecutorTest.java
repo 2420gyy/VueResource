@@ -1,4 +1,4 @@
-package com.chen.mybatis;
+package com.chen.mybatis.luBan;
 
 import lombok.SneakyThrows;
 import org.apache.ibatis.executor.ReuseExecutor;
@@ -9,7 +9,6 @@ import org.apache.ibatis.session.RowBounds;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.ibatis.transaction.jdbc.JdbcTransaction;
-import org.junit.Before;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,4 +1,4 @@
-package com.chen.mybatis;
+package com.chen.mybatis.luBan;
 
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;

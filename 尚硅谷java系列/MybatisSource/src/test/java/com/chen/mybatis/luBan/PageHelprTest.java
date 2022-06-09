@@ -1,4 +1,4 @@
-package com.chen.mybatis;
+package com.chen.mybatis.luBan;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.chen.mybatis.dao.TeacherMapper;
